@@ -3,13 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        Bank myBank = new Bank();
-        myBank.accountType="Savings";
-        myBank.accountBalance=15.0;
+        Bank myBank = new Bank("Savings",15.0);
 
         System.out.println("Account Type:"+myBank.accountType);
         myBank.deposit(500);
-        myBank.withdraw(410);
+        myBank.withdraw(515);
 
     }
     }

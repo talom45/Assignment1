@@ -1,16 +1,12 @@
 public class Bank {
 
     String accountType;
-    Double accountBalance;
+    double accountBalance;
 
     Bank(String accountType, Double accountBalance) {
 
         this.accountBalance = accountBalance;
         this.accountType = accountType;
-
-    }
-
-    public Bank() {
 
     }
 
