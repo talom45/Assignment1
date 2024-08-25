@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("Account Type:"+myBank.accountType);
         myBank.deposit(500);
-
+        myBank.withdraw(410);
 
     }
     }
