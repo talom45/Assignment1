@@ -12,6 +12,7 @@ public class Insurance extends Bank {
         System.out.println("Policy Type: " + policyType);
         System.out.println("Coverage Amount: " + coverageAmount);
     }
-
-
+    public void cover(){
+        System.out.println("You are covered");//method printing
+    }
 }
