@@ -22,7 +22,14 @@ public class Bank {
     }
     public void display(){
         System.out.println(accountType+" "+"account");
-        System.out.println("Balance: "+accountBalance);
-        }//displaying the bank information
+        System.out.println("Balance: $"+accountBalance);//displaying the bank information
+        }
+
+    public void display2info(){
+        System.out.println(accountType+" "+"account");
+        System.out.println("Balance: $"+accountBalance);
+    }
 }
+
+
 

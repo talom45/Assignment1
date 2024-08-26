@@ -13,6 +13,10 @@ public class Main {
         Insurance myinsurance=new Insurance("Savings", 1000.0, "Life Insurance", "$100,000");
         myinsurance.displayInsuranceInfo();
         myinsurance.cover();
+
+        Bank myBank2 = new Bank("TSM", 230761); // using initials and reg number as accountType and accountBalance
+        myBank2.display2info();
+
     }
 }
 
