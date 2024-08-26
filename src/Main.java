@@ -9,5 +9,9 @@ public class Main {
         myBank.deposit(500);
         myBank.withdraw(55.98);
         myBank.display();
+
+        Insurance insurance = new Insurance("Savings", 1000.0, "Life Insurance", "$100,000");
+        insurance.displayInsuranceInfo();
     }
 }
+
